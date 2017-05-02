@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+body {
+	background-color:#7C7C7C;
+} /* Main Body */
+
+#ME_MAIN_SITE{
+	width:1000px;
+	margin:auto;
+} 
+
+#ME_TITLE {
+	font-size: 0.6cm;
+	font-family:Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana,' sans-serif';
+	color: rgb( 255, 255, 255 );
+	margin-left: 450px;
+} /* "Mike's Emporium" Title */
+
+#ME_OPTIONS_BAR {
+	font-size: 0.6cm;
+	font-family:Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana,' sans-serif';
+	color: rgb( 255, 255, 255 );
+	text-align: center;
+	left: 1px;
+	top: 5px;
+	padding:50px;
+	float:left;
+	height: 80px;
+	width: 1117px;
+} /* "EAS,TS,H Options Bar */
+
+#ME_OPTIONS_BAR_LIST > ul {
+	list-style:none;
+	align-items: baseline;
+	font-size: 18px;
+	font-style:oblique;
+	alignment-adjust:central;
+} /* EAS,TS,H Styling */
+
+.SHOP_SUBLIST {
+	list-style:none;
+	background:#F00;
+	background-size:80px 60px;	
+} /*T-shirts, Hoodies Styling */
+
+#ME_OPTIONS_BAR_LIST > ul > li {
+	text-align: center;
+	padding:25px;
+	float:left;
+	margin:-50px;
+	left:80px;
+	font-size: 24px;
+	font-family:Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana,' sans-serif';
+} /* EAS,TS,H Individual Styling */
+
+#ME_OPTIONS_BAR_LIST > ul > li > a:link {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:white;
+} /*EAS,TS,H href Styling */
+
+#ME_OPTIONS_BAR_LIST > ul > li > a:hover {
+	font-family:Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana,' sans-serif';	
+} /* EAS,TS,H cursor hover Styling */
+
+ul li {
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:-130px;
+    position: relative;
+	color:white;
+	top:-40px;
+} /* General Element Styling */
+
+ul ul {
+    position: absolute;
+    top: 40px;
+    left: 00px;
+	float:left;
+    display: none;
+} /* General Element Styling */
+
+ul > li:hover ul {
+    display: block;
+} /* General Element Styling */
+
+#INFO_DISPLAY {
+	background-color:#FFF;
+	color:#00000;
+	width:500px;
+	height:auto;
+	padding:10px;
+	font-size:18px;
+	margin-top:170px;
+	margin-left:300px;
+} /* Middle Display */ 
+
+#ME_SIDE_DISPLAY {
+	background-color:#FF9F00;
+	color:#0F4FA8;
+	width:200px;
+	height:580px;
+	padding:10px;
+	font-variant:small-caps;
+	font-size:18px;
+} /* Side Display */ 
